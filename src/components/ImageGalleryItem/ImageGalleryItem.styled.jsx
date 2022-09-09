@@ -12,4 +12,5 @@ export const GalleryItem = styled.li`
 `;
 export const GalleryImage = styled.img`
   border-radius: 4px;
+  object-fit: cover;
   `;
