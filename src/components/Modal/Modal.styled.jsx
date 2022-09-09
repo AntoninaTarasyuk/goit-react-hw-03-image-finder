@@ -12,7 +12,7 @@ export const Overlay = styled.div`
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.7);
   overflow-y: scroll;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1024px) {
     padding: 100px 100px 20px 100px;
   }
 `;
@@ -21,7 +21,8 @@ export const ModalWindow = styled.div`
   max-width: calc(100vw - 30px);
   width: 100%;
   height: auto;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1024px) {
+    max-width: 100%;
     max-height: calc(100vh - 120px);
     height: 100%;
   }
