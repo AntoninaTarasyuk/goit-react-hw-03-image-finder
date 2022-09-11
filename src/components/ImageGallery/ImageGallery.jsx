@@ -27,7 +27,7 @@ export default class ImageGallery extends Component {
         status: "pending"
       });
       try {
-        const images = await fetchImages(searchQuery, page);
+        const images = await fetchImages(searchQuery, 1);
         if (images.totalHits > 0) {
           toast.success(`Hooray! We found ${images.totalHits} images of ${searchQuery}.`);
           this.setState(({
